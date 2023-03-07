@@ -1,0 +1,44 @@
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .home-img{
+    height: 100vh;
+    width: 100%;
+}
+
+.home .home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home .home-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.home .home-content h1{
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px){
+    .home .home-content{
+        top: 40%;
+    }
+}
+
+@media (max-width: 425px){
+    .home .home-content{
+        top: 45%;
+        right: 7%;
+        text-align: center;
+        left: 7%;
+    }
+}

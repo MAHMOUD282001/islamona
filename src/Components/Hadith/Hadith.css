@@ -1,0 +1,28 @@
+.hadith-content{
+    width: 100%;
+    min-height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    padding: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+}
+
+
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width:375px){
+    .hadith-content{
+        font-size: 1.1rem;
+    }
+    
+}
